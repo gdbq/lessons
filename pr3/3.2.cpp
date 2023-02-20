@@ -1,4 +1,5 @@
-﻿//https://github.com/gdbq/lessons/3
+﻿//https://github.com/gdbq/lessons/tree/main/pr3
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
