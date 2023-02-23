@@ -1,3 +1,4 @@
+//https://github.com/gdbq/lessons/tree/main/3.8
 #include <iostream>
 
 using std::string;
