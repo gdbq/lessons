@@ -1,4 +1,4 @@
-//https://github.com/gdbq/lessons/tree/main/pr5
+//https://github.com/gdbq/lessons/tree/main/2.6
 #include <iostream>
 
 using std::string;
