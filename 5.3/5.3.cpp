@@ -1,4 +1,4 @@
-//https://github.com/gdbq/lessons/tree/main/4.4
+//https://github.com/gdbq/lessons/tree/main/5.3
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
