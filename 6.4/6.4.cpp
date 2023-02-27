@@ -1,4 +1,4 @@
-//https://github.com/gdbq/lessons/tree/main/6.3
+//https://github.com/gdbq/lessons/tree/main/6.4
 #include <iostream>
 #include <cstring>
 
