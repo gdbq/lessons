@@ -39,13 +39,13 @@ void is_natural_square(int num, int &num2) {
 int main() {
     system("chcp 65001");
     int n = 0, n2 = 0, n3 = 0, count = 0;
-    std::cout << "Введите первое натурально число :";
+    std::cout << "Введите первое натуральное число :";
     std::cin >> n;
     std::cout << std::endl;
-    std::cout << "Введите первое натурально число :";
+    std::cout << "Введите второе натуральное число :";
     std::cin >> n2;
     std::cout << std::endl;
-    std::cout << "Введите первое натурально число :";
+    std::cout << "Введите третье натуральное число :";
     std::cin >> n3;
     std::cout << std::endl;
 
