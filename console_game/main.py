@@ -41,7 +41,7 @@ listener.start()
 if __name__ == '__main__':
     field = Map(MAP_W, MAP_H)
     helicopter = Helicopter(MAP_W, MAP_H)
-    field.update_fire()
+    field.update_fire(helicopter)
     tick = 1
     while True:
         os.system("cls")
@@ -49,7 +49,7 @@ if __name__ == '__main__':
         if tick % TREE_UPDATE == 0:
             field.add_tree()
         if tick % FIRE_UPDATE == 0:
-            field.update_fire()
+            field.update_fire(helicopter)
         if tick % CLOUD_UPDATE == 0:
             field.clouds.update()
         field.process_helicopter(helicopter)

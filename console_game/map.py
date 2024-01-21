@@ -8,6 +8,7 @@ BOUND_TYPE = "⬛"
 PLAYER_TYPE = "🚁"
 CLOUD_TYPE = "⚪"
 THUNDER_CLOUD_TYPE = "🔵"
+TREE_FORFEIT = 20
 TREE_BONUS = 100
 UPGRADE_COST = 5000
 LIVES_COST = 1000
@@ -88,11 +89,14 @@ class Map:
     def add_tree(self):
         self.set_type_cell(self.rand_cell(), TREE, EMPTY)
 
-    def update_fire(self):
+    def update_fire(self, helico):
         for ri in range(self.h):
             for ci in range(self.w):
                 if self.cells[ri][ci] == FIRE:
                     self.cells[ri][ci] = EMPTY
+                    helico.score -= TREE_FORFEIT
+                    if helico.score < 0:
+                        helico.score = 0
         for i in range(5):
             self.add_fire()
 
