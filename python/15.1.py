@@ -5,10 +5,5 @@ class Transport:
         self.mileage = mileage
 
 
-class Autobus(Transport):
-    def __str__(self):
-        return f'Название автомобиля: {self.name} Скорость: {self.max_speed} Пробег: {self.mileage}'
-
-
-autobus = Autobus("Renault Logan", 180, 12)
-print(autobus)
+autobus = Transport("Renault Logan", 180, 12)
+print(f'Название автомобиля: {autobus.name} Скорость: {autobus.max_speed} Пробег: {autobus.mileage}')
